@@ -1,0 +1,61 @@
+@font-face {
+    src: url('../fonts/Comfortaa-VariableFont_wght.ttf');
+    font-family: 'Comfortaa VariableFont';
+}
+@font-face {
+    src: url('../fonts/GrenzeGotisch-VariableFont_wght.ttf');
+    font-family: 'GrenzeGotisch VariableFont';
+}
+body{
+    font-family: 'Comfortaa VariableFont'; 
+    margin:0;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: rgb(24, 25, 24);
+}
+h1{
+    display:flex;
+    justify-content: center;
+    margin: 14px auto 30px;
+}
+h2{
+    padding: 14px 0px 0px 30px;
+}
+p{
+    color:rgb(60, 60, 60);
+    padding: 0px 10px 0px 10px;
+    margin-left: 20px;
+}
+.list1{
+    color:rgb(60, 60, 60);
+    text-decoration: none;
+}
+.list2{
+    color:rgb(133, 130, 130);
+    font-size: 12px;
+    padding: 10px 20px;
+}
+a {
+    text-decoration: none; 
+    color: rgb(133, 130, 130);
+}
+a:hover {
+    color: rgb(158, 30, 204);
+    text-decoration: none;  
+}
+.my_photo {
+    display:flex;
+    justify-content: center;
+    margin: 14px auto 30px;
+}
+footer {
+    background-color: rgb(24, 25, 24);
+    /* overflow: hidden; */
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+    height: 100px;      
+}
